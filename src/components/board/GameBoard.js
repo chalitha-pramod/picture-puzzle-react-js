@@ -70,14 +70,14 @@ const GameBoard = () => {
                 {(!game.startTime) && (
                     // render the overlay with the "Start" button when game is not yet started
                     <BoardAction onClick={start}>
-                        Click Here to Play
+                         Play
                         <BsPlayCircle className="text-5xl" />
                     </BoardAction>
                 )}
                 {(!!game.pauseTime) && (
                     // render the "Resume" button is the game is paused
                     <BoardAction onClick={togglePause}>
-                        Resume Game Pause
+                         Pause
                         <BsPauseBtn className="text-5xl" />
                     </BoardAction>
                 )}

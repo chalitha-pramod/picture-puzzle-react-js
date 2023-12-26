@@ -5,7 +5,11 @@
 export const imageList = [
     
     'elephant.jpg',
-    'devil.jpg',
+    'devil1.jpg',
+    'devil2.jpg',
+    'gallfort.jpg',
+    'srilanka.jpg',
+    'dog.jpg',
    
 ];
 
